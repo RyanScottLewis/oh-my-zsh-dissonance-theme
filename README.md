@@ -13,8 +13,7 @@
 
 ## Install
 
-Download `dissonance.zsh-theme` to ~/.oh-my-zsh/custom/themes and set `ZSH_THEME="dissonance"` in
-your `~/.zshrc` file.
+Download `dissonance.zsh-theme` to `~/.oh-my-zsh/custom/themes` and set `ZSH_THEME="dissonance"` in `~/.zshrc`.
 
 ## Issues
 
