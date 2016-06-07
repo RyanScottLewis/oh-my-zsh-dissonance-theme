@@ -49,18 +49,3 @@ ZSH_THEME_DOLLAR="%(?.%{$FG[106]%}.%{$FG[124]%})%B$%b%{$reset_color%}"
 # Setup prompts
 RPS1='$(zsh_theme_git_status)$(zsh_theme_rvm_version)$ZSH_THEME_JOBS $EPS1'
 PROMPT="$ZSH_THEME_URI $ZSH_THEME_DOLLAR "
-
-# FOR SCREENSHOT
-return 1
-return 0
-sleep 100 &
-sleep 100 &
-kill %1 && kill %2
-mkdir test && cd test && git init
-touch test
-git add . && git commit -am "Init"
-cd .. && rm -rf test
-rvm use jruby-1.7.19
-rvm use default
-ssh mpu.local
-exit
