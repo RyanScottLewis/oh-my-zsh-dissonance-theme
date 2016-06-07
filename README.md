@@ -6,6 +6,7 @@
 
 * URI Format
 * Detects SSH session
+* Current job count
 * Colorized dollar based on last command output
 * Git branch and dirty check
 * Short RVM status
